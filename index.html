@@ -20,12 +20,24 @@
                 <label for="city">Search for a City:</label>
                 <input type="text" name="city" id="city">
                 <button id="search">Search</button>
+                <div id="weatherInfo">
+                    <span id="cityName"></span>
+                    <span id="currentDate"></span>
+                    <img id="weatherIcon" alt="Weather Icon" />
+                    <span id="currentTemp"></span>
+                    <span id="windSpeed"></span>
+                    <span id="humidity"></span>
+                </div>
             </div>
             <div id="recentSearch"></div>
         </section>
         <section>
-            <div id="currentCity"></div>
-            <div id="forcast"></div>
+            <div id="forecast">
+                <!-- This div will contain the 5-day forecast -->
+            </div>
+            <div id="searchHistory">
+                <!-- This div will contain the list of searched cities -->
+            </div>
         </section>
     </main>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
